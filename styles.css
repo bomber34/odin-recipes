@@ -25,3 +25,16 @@ hr {
 .sub-unordered ::marker {
     color: grey;
 }
+
+#index-recipe-list {
+    display: block;
+    text-align: center;
+    align-content: center;
+}
+
+#index-recipe-list > ul {
+    display: inline-block;
+    list-style-type: disc;
+    text-align: left;
+    margin-left: -20px;
+}
